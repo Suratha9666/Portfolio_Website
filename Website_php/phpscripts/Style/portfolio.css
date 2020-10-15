@@ -1,0 +1,1422 @@
+
+/* Media Queries for elements whose dimensions vary from device to device */
+
+/* For Desktop */
+
+@media only screen and (min-width: 769px)
+{
+	nav a {
+		padding: 25px 20px;
+	}
+
+	button {
+		padding: 15px 30px;
+	}
+
+	#contactform {
+		padding:10px 50px;
+		border:2px solid gray;
+	}
+
+	#signupform {
+		padding:10px 50px;
+		border:2px solid gray;
+	}
+
+	#loginform {
+		padding:10px 50px;
+		border:2px solid gray;
+	}
+
+	hr {
+		margin:10px -50px;
+	}
+
+	textarea {
+		font-size:16px;
+	}
+
+	.custimg {
+		height: 300px;
+	}
+
+	#contactme {
+		height: 500px;
+	}
+
+	progress {
+		height:6px;
+	}
+
+	.tooltiptext {
+		 width: 40px;
+	}
+
+	#caption {
+		word-spacing: 75px;
+	}
+
+	.workright1 .workright2 .workright3 {
+		height:190px;
+	}
+
+	.eduright3 {
+		height: 160px;
+	}
+}
+
+/* For Mobile */
+
+@media only screen and (max-width: 480px)
+{
+	nav a {
+		padding: 9.7px 7.8px;
+	}
+
+	button {
+		padding: 5.8px 11.7px;
+	}
+
+	#contactform {
+		padding: 3.8px 19.5px;
+		border: 1px solid gray;
+	}
+
+	#signupform {
+		padding: 3.8px 19.5px;
+		border: 1px solid gray;
+	}
+
+	#loginform {
+		padding: 3.8px 19.5px;
+		border: 1px solid gray;
+	}
+
+	hr {
+		margin: 3.8px -19.5px;
+	}
+
+	textarea {
+		font-size: 6.2px;
+	}
+
+	.custimg {
+		height: 117.2px;
+	}
+
+	#contactme {
+		height: 195.5px;
+	}
+
+	progress {
+		height: 2.3px;
+	}
+
+	.tooltiptext {
+		 width: 15.5px;
+	}
+
+	#caption {
+		word-spacing: 29.3px;
+	}
+
+	.workright1 .workright2 .workright3 {
+		height: 74.2px;
+	}
+
+	.eduright3 {
+		height: 62.5px;
+	}
+}
+
+/* For Ipad/Tab */
+
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+	nav a {
+		padding: 15.6px 12.5px;
+	}
+
+	button {
+		padding: 9.4px 18.7px;
+	}
+
+	#contactform {
+		padding: 6.2px 31.2px;
+		border: 1.5px solid gray;
+	}
+
+	#signupform {
+		padding: 6.2px 31.2px;
+		border: 1.5px solid gray;
+	}
+
+	#loginform {
+		padding: 6.2px 31.2px;
+		border: 1.5px solid gray;
+	}
+
+	hr {
+		margin: 6.2px -31.2px;
+	}
+
+	textarea {
+		font-size: 10px;
+	}
+
+	.custimg {
+		height: 187.6px;
+	}
+
+	#contactme {
+		height: 312.7px;
+	}
+
+	progress {
+		height: 3.7px;
+	}
+
+	.tooltiptext {
+		 width: 25px;
+	}
+
+	#caption {
+		word-spacing: 47px;
+	}
+
+	.workright1 .workright2 .workright3 {
+		height: 118.8px;
+	}
+
+	.eduright3 {
+		height: 100px;
+	}
+}
+
+/* Media Queries End */
+
+/*Common elements defined with % dimensions*/
+
+#wrapper {
+	width: 80%;
+}
+
+#home {
+	background-image: url("../Images/home-background.jpg");
+	background-size: cover;
+}
+
+#cust {
+	background-color: black;
+	background-size:cover;
+	overflow-x: hidden;	
+}
+
+#works {
+	background-color: black;
+	min-height: 100%;
+	height: auto !important;
+}
+
+#skills{
+	background-color: black;
+	overflow-x: hidden;	
+}
+
+#hire {
+	background-color: black;
+	overflow-x: hidden;	
+}
+
+/* Header elements */
+
+nav {
+  background-color: #000033;
+  overflow: hidden	;
+  margin-left: -2%;
+  margin-right: -4%;
+  margin-top: -0.5%;
+  padding: 0% 4%;
+}
+
+nav a {
+  display: inline-block;
+  color: #777777;
+  text-align: center;
+  text-decoration: none;
+  font-size: 85%;
+  font-weight: bold;
+  font-family: Roboto;
+  justify-content: space-around;
+}
+
+nav h1 {
+	text-align: center;
+	display: inline-block;
+	font-family: 'Rajdhani';
+	font-size: 170%;
+	background: -webkit-linear-gradient(#FFFFFF, blue);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#welcome {
+	position: relative;
+	top:10%;
+}
+
+.topnav-right {
+	float: right;
+	text-align: justify;
+}
+
+.topnav-right a:hover{
+	color:#E1AD01;
+}
+
+/* Footer Elements */
+
+#workfooter {
+	position: absolute;
+	bottom: -70%;
+	width: 100%;
+}
+
+#skillfooter {
+	position: absolute;
+	bottom: -400%;
+	width: 100%;
+}
+
+#hirefooter {
+	position: absolute;
+	bottom: -280%;
+	width: 100%;
+}
+
+.bottomnav-left {
+	float: left;
+	font-size: 95%;
+	font-style: italic;
+	text-align: center;
+
+}
+
+.bottomnav-left a:hover {
+	color:#E1AD01;
+}
+
+#footericon {
+	margin-top: 1.2%;
+	float: right;
+	position: relative;;
+	right: 7%;
+}
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    bottom: 0%;
+    position: fixed;
+    padding: 0.5%;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+/* Home Page */
+
+.welcome {
+	font-family: 'Rajdhani';
+	color: #FFFFFF;
+	font-size: 300%;
+}
+
+h1{
+	font-family: 'Rajdhani';
+	color: #FFFFFF;
+}
+
+h2{
+	margin-top: 0.5%;
+	font-family: 'Rajdhani';
+	color: #FFFFFF;
+}
+
+h3 {
+	font-family: 'Rajdhani';
+	color: #505050;
+}
+
+#download {
+	width: 10%; 
+	height: 10%;
+}
+
+#downloadbtn{
+	cursor: default;
+}
+
+#dots {
+	padding-left: 2%;
+}
+
+
+
+/* Recommendation Page */
+
+#reco {
+	margin-left: 5%;
+}
+
+#recommend {
+	float: right;
+	margin-right: 18%;
+	margin-top: -16%;
+	width: 55%;
+	font-weight: normal;
+}
+
+small {
+	color: #FFFFFF;
+	font-family: 'Roboto';
+	float: right;
+	margin-right: 89%;
+	margin-top: -2%;
+	
+}
+
+.hr {
+	display: inline-block;
+	float: right;
+	margin-top: 2%;
+	margin-bottom: 0%;
+}
+
+p {
+	padding-top: 1.5%;
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-size: 120%;
+	padding: 2%;
+	font-weight: normal;
+}
+
+#quote {
+	padding-top: 1%;
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-size: 100%;
+	font-weight: normal;
+	overflow-wrap: break-word;
+}
+
+#sp {
+	font-family: 'Rajdhani';
+	margin: 0%;
+	padding: 0%;
+	margin-bottom: 1.5%;
+} 
+
+/* Contact Popup */
+
+#con{
+	margin: 0%;
+	padding: 0%;
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-size: 100%;
+	font-weight: normal;
+
+}
+
+#hr5 {
+	width:13%;
+	align-self: center;
+	margin-top: 1.5%;
+	margin-left: 43.5%;
+	border: 1px solid #00CCFF;
+}
+
+#hr6 {
+	width:5%;
+	align-self: center;
+	margin-top: 1.5%;
+	margin-left: 48%;
+	border: 1px solid #00CCFF;
+}
+button {
+	text-align: center;
+	display: inline-block;
+	background-color: black;
+	color: #3399ff;
+	font-size: 95%;
+	font-family: 'Roboto';
+}
+
+
+#contact {
+	width:127%;
+	opacity:.95;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:inherit;
+	overflow:auto
+	color: #777777;
+}
+
+#popupContact {
+	position:absolute;
+	left:38%;
+	top:15%;
+	margin-left:-9.5%;
+	font-family:'Roboto';
+	color: #777777;
+}
+
+#contactform {
+	width: 80%;
+	margin-top: 9%;
+	margin-left: -15%;
+	font-family:'Roboto';
+	background-color:#fff
+}
+
+/* Login popup */
+
+#login {
+	width:127%;
+	opacity:.95;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:inherit;
+	overflow:auto
+	color: #777777;
+}
+
+#popupLogin{
+	position:absolute;
+	left:38%;
+	top:15%;
+	margin-left:-11%;
+	font-family:'Roboto';
+	color: #777777;
+	margin-top: 2.5%;
+}
+
+#loginform {
+	width: 160%;
+	margin-top: 10%;
+	margin-left: -15%;
+	font-family:'Roboto';
+	background-color:#fff
+}
+
+/* Signup popup */
+
+#signup {
+	width:134%;
+	opacity:.95;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:inherit;
+	overflow:auto
+	color: #777777;
+	
+}
+
+#popupSignup{
+	position:absolute;
+	left:38%;
+	margin-top:1.5%;
+	margin-left:-10.5%;
+	font-family:'Roboto';
+	color: #777777;
+	
+}
+
+#signupform {
+	width: 130%;
+	margin-top: 9%;
+	margin-left: -15%;
+	font-family:'Roboto';
+	background-color:#fff
+}
+
+/* Common elements for poup */
+
+hr {
+	border:0;
+	border-top:1px solid #ccc
+}
+
+input[type=text] {
+	width:82%;
+	padding:5%;
+	margin-top:10%;
+	border:1px solid #ccc;
+	padding-left:5%;
+	font-size:100%;
+	font-family:'Roboto';
+}
+
+label {
+	color:#505050;
+	font-weight: bold;
+	font-family: 'Roboto';
+	display: inline-block;
+
+}
+
+#name {
+	width: 80%;
+	padding:1%;
+	padding-right: 15%;
+	margin-top: 1%;
+	font-family: 'Roboto';
+	font-size: 100%;
+}
+
+#lastname{
+	width: 80%;
+	padding:1%;
+	padding-right: 15%;
+	margin-top: 1%;
+	font-family: 'Roboto';
+	font-size: 100%;
+}
+
+#email {
+	width: 80%;
+	padding:1%;
+	padding-right: 15%;
+	margin-top: 1%;
+	font-family: 'Roboto';
+	font-size: 100%;
+}
+
+#user{
+	width: 80%;
+	padding:1%;
+	padding-right: 15%;
+	margin-top: 1%;
+	font-family: 'Roboto';
+	font-size: 100%;
+}
+
+#password{
+	width: 80%;
+	padding:1%;
+	padding-right: 15%;
+	margin-top: 1%;
+	font-family: 'Roboto';
+	font-size: 100%;
+}
+
+#repeatpassword{
+	width: 80%;
+	padding:1%;
+	padding-right: 15%;
+	margin-top: 1%;
+	font-family: 'Roboto';
+	font-size: 100%;
+}
+
+textarea {
+	width:95%;
+	height:15%;
+	resize:vertical;
+	margin-top:1%;
+	border:1px solid #ccc;
+	font-size:16px;
+	font-family:'Roboto';
+	padding-left: 1%;
+	margin-bottom: 2%;
+}
+
+/* Bottons for popups */
+
+#send {
+	text-align:center;
+	display:block;
+	font-size: 90%;
+	cursor:pointer;
+	background: linear-gradient(to right, #3fcaff 0, #a4ffb0 51%, #3fcaff 100%); 
+	background-size: 200% auto; 
+	padding: 2% 2%; 
+	color: #222222;
+}
+
+#close{
+	text-align:center;
+	display:inline;
+	font-size: 90%;
+	cursor:pointer;
+	background: linear-gradient(to right, #3fcaff 0, #a4ffb0 51%, #3fcaff 100%); 
+	background-size: 200% auto; 
+	padding: 2% 2%; 
+	color: #222222;
+	margin-right: 25%;
+	margin-left: 40%;
+	position: relative;
+	left: 30%;
+	top:-1%;
+}
+
+#save {
+	text-align:center;
+	display:inline;
+	font-size: 90%;
+	cursor:pointer;
+	background: linear-gradient(to right, #3fcaff 0, #a4ffb0 51%, #3fcaff 100%); 
+	background-size: 200% auto; 
+	padding: 2% 2%; 
+	color: #222222;
+	margin-right: -100%;
+	margin-left: 10%;
+	position: relative;
+	right:1%;
+}
+
+.close {
+	color: #505050;
+	font-weight:700;
+	float: right;
+	display:inline-block;
+	margin-top: -8%;
+	margin-right: -5%;
+	cursor: default;
+}
+
+.popout {
+	color: #505050;
+	font-weight:700;
+	float: right;
+	display:inline-block;
+	margin-top: -11%;
+	margin-right: -5%;
+	cursor: default;
+}
+
+.hide{
+	color: #505050;
+	font-weight:700;
+	float: right;
+	display:inline-block;
+	margin-top: -9%;
+	margin-right: -5%;
+	cursor: default;
+}
+
+/* Buttons on hedaer and Footer */
+
+#button {
+	display:inline-block; 
+	width:15%;
+	border: none;
+	height:10%;
+	background-color: inherit;
+	color:#777777;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size:80%;
+	cursor:pointer
+	padding-left:-4%;
+	margin-left: -4%;
+	margin-right: -3%;
+}
+
+#button:hover{
+	color:#E1AD01;
+}
+
+
+#button:focus {
+	outline:0;
+}
+
+#btn {
+	display:inline-block; 
+	width:25%;
+	border: none;
+	height:10%;
+	background-color: inherit;
+	color:#777777;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size:80%;
+	cursor:pointer
+	padding-left: -4%;
+	margin-left: -2.5%;
+	text-align: justify;
+	margin-right: -15%;
+}
+
+#btn:focus {
+	outline:0;
+}
+
+#btn:hover{
+	color:#E1AD01;
+}
+
+/* Customers page */
+
+.custimg {
+	margin-left: -5%;
+	margin-top: -1%;
+	position: relative;
+	overflow: scroll;
+	width: 250%;
+}
+
+.mycustomers {
+	float:left;
+	text-align: right;
+	position: relative;
+	left: -1%;
+	font-size: 100%
+}
+
+.images {
+	float:right;
+	position: relative;
+	left: -8%;
+}
+
+#contactme {
+	margin-top: 25%;
+	padding-top: 5%;
+	background-color: #122335;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%;
+	text-align: center;
+}
+
+/* My Skills page */
+
+#image {
+  	box-sizing: border-box;
+  	width: 19%;
+  	padding: 0.5% 3% 0.3% 0.5%;  
+  	border: 2px solid #00CCFF;
+	margin-right: 73%;
+	margin-left: 6%;
+}
+	
+.skills{
+	
+	margin-top: -38%;
+}
+
+.tabo {
+	float: right;
+	margin-top: -0.8%;
+	margin-right:-6.8%;
+
+}
+
+#skillp {
+	margin-top: -6%;
+	margin-right: 75%;
+	text-align: right;
+	font-style: 'Roboto';
+	font-size: 100%;
+}
+
+#skillh1 {
+	font-size: 250%;
+	font-family: 'Rajdhani';
+	margin-top: -0.08%;
+	margin-right: 75%;
+	text-align: right;
+}
+
+.leftdesc {
+	margin-left: 40%;
+	margin-top: 2%;
+}
+
+.rightdesc {
+	float:right;
+	margin-top: -27.2%;
+	margin-right: 19%;
+}
+
+.para {
+	font-family: 'Rajdhani';
+	font-size: 100%;
+	width: 150%;
+}
+
+.paraex {
+	font-family: 'Rajdhani';
+	font-size: 100%;
+	width: 150%;
+	margin-left: -2%;
+	margin-top: -2%;
+}
+
+#paranext {
+	font-family: 'Rajdhani';
+	font-size: 150%;
+	width: 300%;
+	color: #777777
+}
+
+#part {
+	color: #FFFFFF;
+}
+
+.icon {
+	color: #FFFFFF;
+}
+
+.leftspc {
+	margin-left: 4%;
+	font-family: 'Rajdhani';
+	font-size: 250%;
+}
+
+.spc {
+	margin-top: -2.5%;
+	margin-left: 2%;
+	font-family: 'Roboto';
+	font-size: 100%;
+}
+
+.spc1 {
+	margin-top: -2.5%;
+	margin-left: 2%;
+	font-family: 'Roboto';
+	font-size: 120%;
+}
+
+#smart img {
+	margin-right: 6.2%;
+	margin-top: -2.5%;
+}
+
+/* Works Page */
+
+.portfolioFilter button {
+	box-sizing: border-box;
+	border: 1px solid #00CCFF;
+	font-family: 'Rajdhani';
+	color: #FFFFFF;
+	margin-right: 1%;
+	padding: 0.5%;
+	font-size: 90%;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.portfolioFilter {
+	margin-left: 4%;
+}
+
+.portfolioFilter a.current {
+  background-color: #00CCFF;
+  color: white;
+}
+
+.show {
+  display: block;
+}
+
+.portfolioContainer {
+	overflow: hidden;
+}
+
+.portfolioContainer img {
+	margin-top: 4%;
+	margin-right:3%;
+	margin-left: 7%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.p1 {
+	display: inline-block;
+	position: relative;
+	left:-5%;
+	vertical-align: top;
+	position: relative;
+	top: 2%;
+	font-family: 'Rajdhani';
+	font-size: 110%;
+	color: #FFFFFF;
+} 
+
+.p2 {
+	display: inline-block;
+	position: relative;
+	left:-5%;
+	vertical-align: top;
+	position: relative;
+	top: 2%;
+	font-family: 'Rajdhani';
+	font-size: 110%;
+	color: #FFFFFF;
+	margin-right: 1.5%;
+}
+
+.bar {
+	margin-left: -20%;
+	margin-top: 17%;
+	pointer-events: none;
+	position:absolute;
+	width: 12%;
+	height: -45%;
+	z-index: -1;
+	
+}
+
+/* Hire me page */
+
+.hiretable {
+	margin-left: 4%;
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	margin-top: 0%;
+}
+
+.detail {
+	float:right;
+	margin-right: 60%;
+	margin-top: -200%;
+	border-left: 1px solid white;
+	padding-left: 2.7%;
+}
+
+.detail2 {
+	float:right;
+	margin-right: 58%;
+	margin-top: -1.2%;
+	border-left: 1px solid white;
+	padding-left: 3%;
+}
+
+.desc {
+	font-family: 'Roboto';
+	font-size:100%;
+	margin-top: -200%;
+}
+
+.skilllist {
+	list-style: none;
+	margin-top: -15%;
+	margin-left: -15%;
+}
+
+.skilllist li:before {
+	content:"\2713\0020";
+}
+
+.str1 {
+	font-family: 'Rajdhani';
+	font-size: 90%;
+}
+
+#hirehr1 {
+	margin-top: 4%;
+	width:85%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+#hirehr2 {
+	margin-top: 5%;
+	width:85%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+#skillleft {
+	margin-left: 4%;
+}
+
+.h3 {
+	font-family: 'Rajdhani';
+	color: #FFFFFF;
+	font-size: 120%;
+}
+
+.h3r {
+	font-family: 'Rajdhani';
+	color: #FFFFFF;
+	font-size: 120%;
+	margin-left: 25%;
+	margin-top: -15%;
+}
+
+/* Software in hire me page */
+
+progress {
+  -webkit-appearance: none;
+  position: relative;
+  left:0%;
+  vertical-align: top;
+  width:45%;  
+}
+
+::-webkit-progress-value {
+  background-color: #00CCFF;
+}
+
+.sk {
+	font-family: 'Roboto';
+	font-size: 80%;
+	margin-bottom: -1%;
+	margin-top: -1%;
+	margin-left: -2%;
+}
+
+#tooltip1 {
+  position: relative;
+  top: -12%;
+  left: 39%;
+  display: inline-block;
+ }
+
+#tooltip2 {
+  position: relative;
+  top: -12%;
+  left:-8%;
+  display: inline-block;
+ }
+
+ #tooltip3 {
+  position: relative;
+  top: -12%;
+  left:-9%;
+  display: inline-block;
+ }
+
+ #tooltip4 {
+  position: relative;
+  top: -12%;
+  left:-9%;
+  display: inline-block;
+ }
+
+ #tooltip5 {
+  position: relative;
+  top: -12%;
+  left:-7%;
+  display: inline-block;
+ }
+
+ .tooltiptext {
+  visibility: visible;
+  background-color: #00CCFF;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  margin-top: -5%;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+#skillright {
+	float: right;
+	margin-top: -48%;
+	margin-right: 25%;
+}
+
+/* Language skills in hire me page */
+
+#lang{
+	margin-top: 4%;
+}
+
+#lang img {
+	margin-left: -3.5%;
+	margin-right: 10%;
+}
+
+/* Recognitions in hire me page */
+
+#leftreco {
+	float:left;
+	margin-left: 25%;
+	padding-top: 10%;
+}
+
+#leftreco img {
+	margin-bottom: 40%;
+	border: 1px solid #00CCFF;
+	padding: 12%;
+}
+
+.rightreco {
+	float: right;
+	margin-right: -40%;
+}
+
+.rightreco p {
+	margin-top: 10%;
+	font-family: 'Roboto';
+	font-size:100%;
+	width: 150%;
+	margin-bottom: -2%;
+}
+
+.small {
+	color: #00CCFF;
+}
+
+/* Knowlege in hire me page */
+
+.skright {
+	float: right;
+	margin-top: -19%;
+	margin-right: 35%;
+	font-family: 'Roboto';
+	color: #FFFFFF;
+}
+
+.knowledgelist {
+	list-style: none;
+	margin-top: 25%;
+	margin-left: 2%;
+	width: 150%;
+}
+
+.knowledgelist li:before{
+	content:"\2713\0020";
+}
+
+.knowledgelist li {
+	margin-bottom: 6%;
+}
+
+.kright {
+	float:right;
+	margin-top: -75%;
+	margin-right: -75%;
+}
+
+.kright li {
+	margin-bottom: 12%;
+}
+
+/* Hobbies and Interests in hire me page */
+
+#last {
+	margin-left: 4%;
+	margin-top:4%;
+}
+
+#hobbies img {
+	margin-top: -1%;
+	margin-left: -3.5%;
+	margin-right: 7.3%;
+	border: 1px solid #00CCFF;
+	padding: 1%;
+}
+
+#caption {
+	margin-top: -2%;
+	font-family: 'Roboto';
+	font-size: 110%;
+	margin-left: -13%; 
+}
+
+/* Work Experience in my skills page */
+
+#workexp {
+	font-family: 'Roboto';
+	font-size:85%;
+	margin-top: 5%;
+}
+
+.workleft {
+	margin-left: 3%;
+	text-align: right;
+	width: 20%;
+}
+
+.workright1 {
+	float:right;
+	margin-top: -51%;
+	margin-right: 5%;
+	margin-bottom: -1%;
+	padding-left: 3.5%;
+}
+
+.workright2 {
+	float:right;
+	margin-top: -32%;
+	margin-right: 10%;
+	margin-bottom: -1%;
+	border-left: 1px solid white;
+	padding-left: 3%;
+}
+
+.workright3 {
+	float:right;
+	margin-top: -13%;
+	margin-right: 15%;
+	margin-bottom: -1%;
+	border-left: 1px solid white;
+	padding-left: 3%;
+}
+
+/* Education in my skills page */
+
+#education {
+	font-family: 'Roboto';
+	font-size:85%;
+	margin-top: 4%;
+}
+
+.eduleft {
+	margin-left: 3.5%;
+	text-align: right;
+	width: 20%;
+}
+
+.eduright1 {
+	float:right;
+	margin-right: 48%;
+	margin-bottom: -1%;
+	margin-top: -42%;
+	padding-left: 3%;
+}
+
+.eduright2 {
+	float:right;
+	margin-right: 39.5%;
+	margin-bottom: -1%;
+	margin-top: -26%;
+	padding-left: 3%;
+}
+
+.eduright3 {
+	float:right;
+	margin-right: 48%;
+	margin-bottom: -1%;
+	margin-top: -10%;
+	padding-left: 3.5%;
+}
+
+.role {
+	font-family: 'Roboto';
+	font-size: 100%;
+	text-transform: uppercase;
+}
+
+.year {
+	color: #00CCFF;
+	font-size:150%;
+	margin-top: -20%;
+	margin-bottom: 15%;
+}
+
+.month {
+	margin-top: 5%;
+	text-align: right;
+	width: 800%;
+}
+
+.month1 {
+	margin-left: 50%;
+}
+
+.year1 {
+	color: #00CCFF;
+	font-size:150%;
+	margin-top: -5%;
+}
+
+.resp {
+	margin-top: -4%;
+	width:10%;
+	float:right;
+}
+
+.workhr {
+	margin-top: 22%;
+	width:450%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+#workexperience {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.mido {
+	margin-top: -15%;
+	align-self: right;
+	width:35%;
+	margin-left: 62%;
+}
+
+.mido1{
+	align-self: right;
+	width:35%;
+	margin-left: 62%;
+	margin-top: -6%;
+}
+
+.degree {
+	font-family: 'Rajdhani';
+	font-size:100%;
+	margin-top: -11%;
+}
+
+.degree1 {
+	font-family: 'Rajdhani';
+	font-size:100%;
+	margin-top: -21%;
+}
+
+.wide {
+	width: 100%;
+}
+
+.wp {
+	font-size: 10px;
+	padding: 1px;
+	margin-top: -10px;
+}
+
+.img1, .forms {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+
+
